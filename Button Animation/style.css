@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.btn_div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: .7rem 1.5rem;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 1rem;
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(47, 47, 255);
+}
+.fa-solid{
+    padding-right: 5px;
+    
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #b983ff;
+}
+::selection {
+  color: #fff;
+  background: #b983ff;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 450px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
+  visibility: hidden;
+}
+.wrappers {
+  visibility: visible;
+}
+.wrapper header {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 17px 30px;
+  border-bottom: 1px solid #ccc;
+}
+.wrapper header.active {
+  cursor: pointer;
+  user-select: none;
+}
+.wrapper .content {
+  display: flex;
+  padding: 30px 30px 40px 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.names,
+.ages,
+.mails {
+  display: flex;
+  padding: 1rem;
+  gap: 10px;
+  font-size: 17px;
+}
+.age {
+  margin-left: 1rem;
+}
+.mail {
+  margin-left: 13px;
+}
+.canbtn,
+.subbtn {
+  padding: 10px 15px;
+  background-color: #b983ff;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 1rem;
+}
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #b983ff;
+  color: white;
+}
+.register {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: #b983ff;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 5rem 0 0 44rem;
+}
